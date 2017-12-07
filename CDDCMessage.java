@@ -21,9 +21,17 @@ public class CDDCMessage {
      */
     private String cddcMessage;
 
+    /**
+     * whatever
+     *
+     */
+    private boolean isCalled;
+
+
     public CDDCMessage(String message, int returnCode) {
         this.cddcMessage = message;
         this.returnCode = returnCode;
+        this.isCalled = true;
     }
 
     public int getReturnCode() {
