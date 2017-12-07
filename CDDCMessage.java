@@ -38,5 +38,9 @@ public class CDDCMessage {
         return cddcMessage;
     }
 
+    public String getCddcMessage3() {
+        return cddcMessage;
+    }
+
 
 }
