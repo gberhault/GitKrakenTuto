@@ -13,7 +13,7 @@ public class CDDCMessage {
      * the CDDC Return Code
      *
      */
-    private int returnCode;
+    private int returnCode;,mfdns
 
     /**
      * JSON string containing the CDDC message
